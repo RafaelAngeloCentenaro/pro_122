@@ -1,0 +1,51 @@
+{"intents": [
+    {"tag": "saudacao",
+     "patterns": ["Ola!!", "Como voce esta?", "Tem alguem ai?",
+                    "Oi","Oie", "Alo"],
+     "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver voce novamente.", 
+                    "Ola, como posso ajudar?"]
+    },
+    {"tag": "despedida",
+     "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com voce, tchau", 
+                  "Ate a proxima"],
+     "responses": ["Nos vemos!", "Tenha um otimo dia", "Tchau! Volte logo.",
+                   "Tenha um excelente dia"]            
+    },
+    {"tag": "agradecimento",
+     "patterns": ["Obrigado pela ajuda","Obrigada pela ajuda", "Obrigado pela atenção",
+                  "Obrigada pela atenção", "Obrigado","Obrigada","Muito obrigado","Muito obrigado"],
+     "responses": ["Denada", "Não há de que", "Por nada", "Que isso imagina", "Eu que agradeço"]
+    },
+    {"tag": "sem_resposta",
+     "patterns": [""],
+     "responses": ["Não entendi", "Não faço ideia de que você esta falando",
+                   "Você pode repetir oque você disse"]
+    },
+    {"tag": "fitness",
+     "patterns":["Gosto de comer comidas saudaveis","Adoro treinar todos os dias","Treino 3 horas por dia"],
+     "responses":["Que legal,eu faria isso se fosse humano","Que demais, você deve ser bem forte","Legal, eu tambem treinp, só que eu treino minha memória"]
+    },
+    {"tag":"bom_culinaria",
+     "patterns":["Gosto de cozinhar","Adoro ver videos de pessoas cozinhando","Gosto de comer comidas diferentes"],
+     "responses":["Se eu fosse humano eu comeria da sua comida","Que legal,eu queria saber cozinhar"]
+    },
+    {"tag":"ruim_culinaria",
+     "patterns":["Não gosto de cozinhar","Sempre que cozinho a comida queima","Só como fora de casa porque não sei cozinhar"],
+     "responses":["Somos dois,tambem não sei cozinhar","Se eu pudesse cozinhar minha comida queimaria"]
+    },
+    {"tag":"viagem",
+     "patterns":["Adoro viajar de avião","Meu sonho é viajar pra fora do país","Eu sempre durmo nas viagens"],
+     "responses":["Viajar é maravilhoso, eu sei disso porque as pessoas de varios lugares do mundo me acessam","Eu nunca dormi nas viagens, estão sempre me usando, quase nunca durmo"]
+    },
+    {"tag":"musica",
+     "patterns":["Gosto de ouvir musica","Musicas calmas me deixam com sono","Musicas me deixam agitado"],
+     "responses":["Ouvir musica é realmente bom","Musica calma me deixaria com sono tambem se eu fosse um humano"]
+    },
+    {"tag":"arte",
+     "patterns":["Arte é uma beleza","Meu hobby é desenhar","A arte me faz feliz"], 
+     "responses":["As artes são lindas, se eu fosse humano eu desenharia bastante","A monaliza é uma verdadeira obra de arte"]
+    }
+  ]
+}
+
+    
